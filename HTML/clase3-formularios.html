@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Registro</h1>
+
+    <form action="">
+        <div>
+            <!-- con el for de label lo linkeamos con el nombre del input -->
+            <label for="Nombre">Nombre</label><br>
+            <input type="text" name="Nombre" id="" placeholder="Nombre">
+
+        </div><br>
+        <div>
+            <!-- completar name es importante para que el envio de informacion sea efectiva -->
+            <label for="">Contraseña</label><br>
+            <input type="password" placeholder="Contraseña" name="Contraseña">
+        </div><br>
+        <div>
+            <label for="">email</label><br>
+            <input type="email" name="email" id="" placeholder="Email">
+        </div><br>
+        <div>
+            <label for="">Mayor de edad?</label>
+            <input type="checkbox" name="mayorDeEdad" id="">
+        </div><br>
+        <label for="">estado civil</label>
+        <div>
+            <!-- al establecer un value es lo que enviara como respuesta cuando se seleccione  -->
+            <!-- al poner en todos los inputs el mismo name no permite que se seleccione de forma multiple -->
+            <label for="">Solter@</label>
+            <input type="radio" name="estado civil" id="" value="S"><br>
+            <label for="">Casad@</label>
+            <input type="radio" name="estado civil" id="" value="C"><br>
+            <label for="">Divorciad@</label>
+            <input type="radio" name="estado civil" id="" value="D"><br>
+            <label for="">Viud@</label>
+            <input type="radio" name="estado civil" id="" value="V">
+        </div><br>
+        <div>
+            <label for="">Nacionalidad</label><br>
+            <select name="Nacionalidad" id="">
+                <option value="AR">Argentina</option>
+                <option value="UR">Uruguay</option>
+                <option value="VE">Venezuela</option>
+                <option value="CH">China</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="">Comentarios</label><br>
+            <textarea name="Comentarios" id="" cols="30" rows="10" placeholder="Danos feedback"></textarea>
+        </div>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
