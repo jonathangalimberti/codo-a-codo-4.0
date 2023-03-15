@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@300&family=Quicksand:wght@300;500;700&display=swap');
+
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif; */
+
+body{
+    margin: 0;
+    background-color: rgb(191, 199, 206)
+}
+
+*{
+    text-decoration: none;
+    font-family:'Poppins', sans-serif ;
+}
+
+.titulo{
+text-align: center;
+}
+
+.whatsapp{
+    width: 80px;
+}
+
+.meet{
+    width: 100px;
+    padding-bottom: 10px;
+}
+h2{
+    padding-left: 8px;
+
+}
+
+.imagen-header{
+    width: 100%;
+}
+
+.tabla-enlaces{
+    width: 100%;
+}
+
+.tabla-enlaces th{
+    width: 30%;
+    text-align: start;
+    padding-left: 8px;
+}
+
+.referencias{
+    width: 100%;
+}
+
+.referencias th{
+    width: 30%;
+}
+
+footer{
+    background-color:  #000F2B;
+    color:rgb(191, 199, 206);
+
+}
+.footer{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.links-referencia{
+    color: rgb(191, 199, 206);
+}
