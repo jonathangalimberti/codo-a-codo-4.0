@@ -46,9 +46,10 @@ text-align: center;
     padding-bottom: 10px;
 }
 h2{
-    padding-left: 8px;
+    padding-left: 20px;
     color: rgb(189, 189, 2);
-
+    background-color: #000F2B;
+    border-radius: 15px;
 
 }
 
