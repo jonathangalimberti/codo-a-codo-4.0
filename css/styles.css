@@ -6,6 +6,12 @@ font-family: 'Noto Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Quicksand', sans-serif; */
 
+/* unidades de medida relativos
+%
+px
+rem (relativo a la letra del html, por defaul 16px)
+em (relativo al tamañp de la letra del contenedor mas cercano) */
+
 body{
     margin: 0;
     background-color: rgb(191, 199, 206)
@@ -31,6 +37,7 @@ main{
 *{
     text-decoration: none;
     font-family:'Poppins', sans-serif ;
+
 }
 
 .titulo{
