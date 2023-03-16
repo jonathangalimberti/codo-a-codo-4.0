@@ -11,6 +11,23 @@ body{
     background-color: rgb(191, 199, 206)
 }
 
+main{
+    color: #000F2B;
+    height: 800px;
+}
+
+.link-contacto{
+    color: black;
+}
+
+.link-main{
+    color: #000F2B;
+}
+
+.link-main:hover{
+    zoom: 150%;
+}
+
 *{
     text-decoration: none;
     font-family:'Poppins', sans-serif ;
@@ -30,6 +47,8 @@ text-align: center;
 }
 h2{
     padding-left: 8px;
+    color: rgb(189, 189, 2);
+
 
 }
 
@@ -58,7 +77,6 @@ h2{
 footer{
     background-color:  #000F2B;
     color:rgb(191, 199, 206);
-
 }
 .footer{
     text-align: center;
