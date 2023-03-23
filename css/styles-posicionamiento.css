@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.contenedor{
+    position: relative;/*se mantiene relativo al poscisionamiento natural*/
+    width: 60rem;
+    height: 70rem;
+    border: 0.2rem solid black;
+    margin:2rem auto;
+}
+
+.caja{
+    width: 15rem;
+    height: 15rem;
+    border: 0.2rem solid grey;
+}
+
+#elemento1{
+    background-color: aqua;
+    position: absolute; /*se mantiene relativo al contenedor con posicion asignada mas cercano*/
+    left:20rem
+}
+
+#elemento2{
+    position: fixed;/*queda pegado a la posicion siempre respecto del viewport*/
+    background-color: red;
+    left:30rem
+}
+
+#elemento3{
+    position: sticky;/*queda pegado en la posicion asignada pero se va con su cotenedor en caso de scroll*/
+    background-color: green;
+    left: 15rem;
+}
