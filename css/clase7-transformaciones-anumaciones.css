@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.contenedor-gral{
+    width: 100vw;
+    height: 100vw;
+    background-color: black;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 8rem;
+    color: white;
+
+}
+
+.caja{
+    width: 50rem;
+    height: 50rem;
+    background-color: azure;
+    margin: auto;
+    
+}
+
+.caja::before{
+    width: 200px;
+    height: 100px;
+    border-color: brown;
+    background-color: aqua;
+}
